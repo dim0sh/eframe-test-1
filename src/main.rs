@@ -88,7 +88,7 @@ impl App for MyApp {
                     }
                 });
                 ui.separator()},
-                PanelSwitch::Test => {ui.label("test panel")}
+                PanelSwitch::Test => {ui.hyperlink("https://www.egui.rs/")}
             }
             
          });
